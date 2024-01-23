@@ -1,4 +1,4 @@
- # Requisitoa Funcionais
+ # Requisitos Funcionais
 
 - [x] O usuário deve poder criar uma nova transação;
 - [x] O usuário deve poder obter um resumo da sua transação;
