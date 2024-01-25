@@ -15,6 +15,18 @@ const config: { [key: string]: Knex.Config } = {
     },
   },
 
+  test: {
+    client: 'sqlite',
+    connection: {
+      filename: './db/test.db',
+    },
+    useNullAsDefault: true,
+    migrations: {
+      extension: 'ts',
+      directory: './db/migrations',
+    },
+  },
+
   staging: {
     client: 'postgresql',
     connection: {
